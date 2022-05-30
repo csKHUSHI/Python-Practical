@@ -1,0 +1,5 @@
+# list input by the user and modify the square of the list element 
+
+l=list(map(int,input().split())
+f=list(map(lambda p:l[p]**2,range(len(l))))
+print(f)
