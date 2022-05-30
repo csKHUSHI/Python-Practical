@@ -1,0 +1,10 @@
+try:
+    i=int(input("enter the no1 ")) 
+    p=int(input("enter the no2"))
+    c=i/p 
+except ZeroDivisionError as z: 
+    print(z)
+except ValueError:
+    print("unable to solve ") 
+except:
+    print("unknown error ")
