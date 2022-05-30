@@ -1,0 +1,15 @@
+try :
+    d={}
+    i=int(input("enter the dictionary size ")) 
+    for p in range (i):
+       name=input("enter the name ")
+       d[name]=input("enter the sec")
+    print(d)
+    s=list(filter(lambda x:x.lower()=="k",d.values())) 
+except ZeroDivisionError as w:
+    print(w) 
+except:
+    print("unknown error ")
+else:
+    print("section k student are",s)
+
