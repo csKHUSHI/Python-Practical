@@ -1,0 +1,5 @@
+Write a program in python to read entire content of text file 
+
+f = open("data.txt", 'r')
+d = f.read( )
+print(d)
