@@ -1,0 +1,10 @@
+# Find the user enter key found or not if found print congratulation key found 
+
+d={"Anu":90,"Tanu":8980 ,"ojasvi": 9000 }
+for i in range(2):
+    k=input("enter key you want to find ")
+    m=d.get(k,"Found")
+    if m=="Found": 
+        print("congratulations key ",m)  
+    else :
+        print("Enter key not found",d[k]) 
