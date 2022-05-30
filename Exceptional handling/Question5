@@ -1,0 +1,9 @@
+try :
+    while True:
+        num=int(input("enter a positive number ")) 
+        if num>=0:
+            print(num*num)
+        else:
+            raise ValueError("user enter the negative value ")  
+except ValueError as w:
+    print(w)
