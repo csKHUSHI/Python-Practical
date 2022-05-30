@@ -1,0 +1,9 @@
+#Write a program to count number of spaces from the file (“data.txt”). 
+f=open("data .txt", 'r') 
+1=f. read() 
+for i in 1: 
+if (i.isspace() and 
+C=C+I 
+print("Tota1 spaces are = 
+",c) 
+Q15. Write a program to cou
