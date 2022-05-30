@@ -1,0 +1,10 @@
+# find the total age of the dogs 
+
+d={}
+l1=list(map(int,input("enter the age of dogs ").split())) 
+l2=list(map(int,input("enter the age of cat s").split()))
+d["DOG"]=l1
+d["CAT"]=l2
+print(d,l1,l2)
+p=list(map(lambda x:sum(d[x]) if x=="DOG" else 0 ,d.keys()))
+print("total age of dogs is",p[0])
