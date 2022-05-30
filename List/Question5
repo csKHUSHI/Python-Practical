@@ -1,0 +1,6 @@
+# Concatenate two lists in the following order
+
+list1 = list(map(str,input().split())
+list2 = list(map(str,input().split())
+res = [x + y for x in list1 for y in list2]
+print(res)
