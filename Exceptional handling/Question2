@@ -1,0 +1,9 @@
+try :
+    l1=[]
+    lst=[10,20,30,40,50,60]
+    for n in lst:
+        l.append(n**2)
+except NameError as w:
+    print("Error is ",w) 
+else:
+    print("New list",l1)
