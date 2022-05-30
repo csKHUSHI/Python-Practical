@@ -1,0 +1,9 @@
+# import the random module
+
+import random
+sample_list = list(map(int,input().split())
+print("Original list : ")
+print(sample_list)
+random.shuffle(sample_list)
+print("\nAfter the first shuffle : ")
+print(sample_list)
