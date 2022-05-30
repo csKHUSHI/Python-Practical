@@ -1,0 +1,5 @@
+#sorted the dictionary and print their keys usinf tha lambda function 
+
+d={1:2,3:3,4:5,5:55} 
+m=sorted(d.values(),key=lambda x:x)
+print("sorted list ",m)
