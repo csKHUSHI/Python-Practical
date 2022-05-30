@@ -1,0 +1,9 @@
+# dictionary enter by the user and  print the keys(students) who score above or equal to 40 marks 
+d={} 
+i=int(input("Enter th total no of student ")) 
+for j in range(i):
+    i=input("enter the student name ")
+    d[i]=int(input("enter the examination marks ")) 
+print("examination data ",d)
+l=list(filter(lambda x:d[x]>=40,d.keys()))
+print("list of that student who score more that or equal to marks 40",l)
