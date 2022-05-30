@@ -1,0 +1,5 @@
+ #Write a program in python to read first 5 characters from the text file
+
+f = open("data.txt", 'r')
+d = f.read(5)
+print(d)
