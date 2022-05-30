@@ -1,0 +1,9 @@
+# how to find the characters at odd position in string input by user 
+
+string = input("Enter the string : ")
+outputString = ''
+for i in range(len(string)):
+    if(i % 2 == 0):
+        outputString = outputString + string[i]
+print("input string :  ", string)
+print("String after odd charcater :", outputString)
