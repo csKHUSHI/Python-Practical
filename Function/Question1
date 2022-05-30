@@ -1,0 +1,11 @@
+# By using function find the frequency of each element in the string
+
+def frequency(s):
+    s2=list(s) 
+    s1=set(s) 
+    print(s1)
+    for i in s1 :
+        p=s2.count(i)
+        print("it is ",i,p) 
+s=input("enter the string ") 
+frequency(s) 
