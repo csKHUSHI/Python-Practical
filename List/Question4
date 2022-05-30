@@ -1,0 +1,6 @@
+# Iterate both lists simultaneously 
+
+list1 = list(map(int,input().split())
+list2 = list(map(int,input().split())
+for x, y in zip(list1, list2[::-1]):
+    print(x, y)
