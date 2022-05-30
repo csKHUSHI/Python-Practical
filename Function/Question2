@@ -1,0 +1,14 @@
+ Enter the string and find the upper and lower case in the string and print in the 
+form of dictionary 
+
+d={"upper":0,"lower":0}
+def count(s):
+    for i in s:
+        if i.isupper():
+            d["upper"]+=1
+        else:
+            d["lower"]+=1
+    return d
+s=input("enter the string ") 
+p=count(s)
+print(p)
