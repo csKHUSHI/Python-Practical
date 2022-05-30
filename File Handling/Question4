@@ -1,0 +1,7 @@
+#Write a program to write following text
+
+f = open("data.txt" , 'w')
+f.write("I am learning python \n")
+f.write("I am writing this blog. \n")
+f.write("Welcome to my blog . ")
+f.close( )
