@@ -1,0 +1,5 @@
+# list enter by the user and print the words whose length more than 8 and insert in the list 
+
+l=list(map(str,input().split())
+p=list(filter(lambda x:len(x)>8,l))
+print(p)
