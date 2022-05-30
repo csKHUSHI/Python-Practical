@@ -1,0 +1,12 @@
+#Write a program to read all data from “data.txt” and write in another file “dest.txt” except the vowels. 
+
+
+f = open("data.txt" , 'r')
+f1 = open("dest.txt" , 'w')
+cd = f.read( )
+vow = "aeiouAEIOU"
+for i in cd:
+    if (not i in vow) :
+         f1.write(i)
+f1.close( )
+f.close( )
