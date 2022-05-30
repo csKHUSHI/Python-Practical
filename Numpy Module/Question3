@@ -1,0 +1,8 @@
+# Python Program to create array with all ones
+import numpy as file
+ 
+a = file.ones(3, dtype = int)
+print("Matrix a : \n", a)
+ 
+b = file.ones([3, 3], dtype = int)
+print("\nMatrix b : \n", b)
