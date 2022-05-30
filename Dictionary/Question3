@@ -1,0 +1,12 @@
+# for  the following dictionary write , a program to report the maximum and minimum 
+salary
+
+d={}
+l=[]
+i=int(input("enter the size ") ) 
+for m in range (i): 
+    o=input("eneter the keys ") 
+    d[o]=int(input("enter the salary ")) 
+    l.append(d[o]) 
+print("maximum salary",max(l))
+print("minimum salary ",min(l)) 
