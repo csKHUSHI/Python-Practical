@@ -1,0 +1,10 @@
+# Create a list of cricket . use this list to create a dictionary in which the list value
+  become keys of the dictionary . set the values of all keys to 50
+
+d={} 
+lst=[]
+i=int(input("enter the size ")) 
+for m in range (i) :
+    lst.append(input("enter the list element ")) 
+d=d.fromkeys(lst,50) 
+print(d) 
