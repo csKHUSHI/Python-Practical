@@ -1,0 +1,7 @@
+try:
+    c=10/0
+    raise ZeroDivisionError 
+except ValueError as a:
+    print(a) 
+except ZeroDivisionError as a:
+    print(a)
