@@ -1,0 +1,6 @@
+# import random
+import random
+  
+# prints a random item from the string
+string = input("enter the string")
+print(random.choice(string))
