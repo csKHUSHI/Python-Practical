@@ -1,0 +1,13 @@
+ find the sanitize list from list1 and list 2 and list input by user 
+
+def sanitize_list(l1,l2):
+    for i in l2 :
+        if i  not in l1 :
+            l3.append(i) 
+    return l3 
+l3=[]
+print("enter the list1 themn list2 ")
+l1=list(map(int,input().split())) 
+l2=list(map(int,input().split())) 
+p=sanitize_list(l1,l2)
+print(p)
