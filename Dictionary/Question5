@@ -1,0 +1,18 @@
+# Create two dictionary one dictionary contain grocery item and their prize 
+and another containing grocery items and quantity finf the total bill 
+
+d1={}
+d2={} 
+l1=[]
+s=0
+p=0
+i=int(input("enter the size of the doctionaaryr ")) 
+for m in range (i): 
+    n=input("enter the grocery ")
+    d1[n]=int(input("eneter the cost of that groocery item  ")) 
+    d2[n]=int(input("enter the grocery quantity  ")) 
+    l1.append(d1[n]*d2[n]) 
+    s=s+l1[p]
+    p+=1 
+print("total bill is s",s)
+ 
