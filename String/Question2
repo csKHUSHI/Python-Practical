@@ -1,0 +1,6 @@
+# How to replace all occurrence of sub-string in string
+
+string1 = input("Enter the string ")
+replacestr=input("Replace string")
+modifiedStr =  string1.replace('replacestr', '')
+print(modifiedStr)
