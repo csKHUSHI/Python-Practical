@@ -1,0 +1,6 @@
+# import random
+import random
+  
+# prints a random value from the list
+list1 = list(map(int,input().split())
+print(random.choice(list1))
